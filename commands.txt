@@ -1,0 +1,6 @@
+gcc file.c
+./a.out
+
+gcc file.c && ./a.out
+
+Command-Shift-V on a readme file tab: to preview the readme file.
