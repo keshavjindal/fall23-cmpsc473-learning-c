@@ -3,4 +3,4 @@
 Sem: Fall23 <br>
 Course: CMPSC 473 (Operating Systems) <br>
 
-Repo Description: Practicing C basics <br>
+Repo Description: Practicing C basics, GDB <br>

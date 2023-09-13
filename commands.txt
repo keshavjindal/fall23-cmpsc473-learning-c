@@ -1,6 +1,19 @@
-gcc file.c
-./a.out
-
-gcc file.c && ./a.out
-
 Command-Shift-V on a readme file tab: to preview the readme file.
+
+gcc <input C file> -o <output file> => will compile the <input C file> and create a <output file>.
+eg: gcc file.c -o binary => a file named "binary" will be created 
+eg: gcc file.c -o file => a file named "file" will be created 
+
+./binary => execute the binary file
+
+-g => to compile the C program with debugging information.
+eg: gcc file.c -o file -g => a file.dSYM folder is created which has debugging info.
+
+GDB Commands:
+    shell clear: to clear screen in gdb.
+    file <file name>: to specify <file name> as the executable file to debug
+    
+    ...
+    ...
+
+To exit from GDB: Control-D or quit or exit
